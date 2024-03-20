@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Saya</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f2f2f2;
+    }
+    .cv-container {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .profile-picture {
+      overflow: hidden;
+      border: 3px solid #004080;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .profile-picture img {
+      width: 100%;
+      height: auto;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container cv-container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="text-center mb-4">
+          <div class="profile-picture">
+            <img src="data:image/jpeg;base64,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" alt="Foto Anda" class="img-fluid rounded-circle">
+          </div>
+          <div>
+            <h2>Michale Kristofer</h2>
+            <p>Mahasiswa</p>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Tentang Saya</h3>
+          <p>Deskripsi singkat tentang diri Anda.
+            saya adalah mahasiswa aktif di kampus umdp palembang angkatan 2022 dan akan lulus dari kampus ini di 2026
+          </p>
+        </div>
+        <div class="section">
+          <h3>Pendidikan</h3>
+          <div class="d-flex justify-content-between">
+            <div>
+              <h5>Universitas Multi Data Palembang</h5>
+              <p>Mahasiswa,SistemInformasi</p>
+              <p>2022-2026</p>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Kontak</h3>
+          <p>Email: MichaleKristofer</p>
+          <p>Telepon: 082180339099</p>
+          <p>Alamat: jakabaring</p>
+        </div>
+        <div class="section">
+          <h3>Keahlian</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="section">
+          <h3>Pengalaman Kerja</h3>
+          <div class="d-flex justify-content-between">
+            <div>
+              <h5>Mellisa Bakery</h5>
+              <p>supervisor</p>
+              <p>2024 - seterusnya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
